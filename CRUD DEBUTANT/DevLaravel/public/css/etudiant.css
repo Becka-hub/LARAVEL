@@ -1,0 +1,57 @@
+:root {
+    --bg: #0b1218;
+    --body: #131d28;
+    --white: rgb(255, 255, 255);
+    --black: #080808;
+    --green: rgb(0, 230, 0);
+    --marron: rgb(100, 54, 1);
+  }
+  a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0 none;
+  }
+
+  body,
+  html {
+    background-color: var(--bg);
+    position: relative;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+  }
+
+ #header .navbar{
+ background-color: var(--white);
+}
+ #header .navbar .navbar-brand{
+    font-weight: 600;
+    color: var(--marron);
+}
+ #header .navbar ul li a{
+    font-weight: 600;
+    font-size: 15px;
+}
+#etudiant{
+    width: 100%;
+}
+#etudiant h4{
+    color: var(--green);
+}
+#etudiant .table{
+    color: var(--white);
+}
+footer{
+    background-color: var(--white);
+    color: var(--bg);
+    padding: 10px;
+    bottom: 0;
+}

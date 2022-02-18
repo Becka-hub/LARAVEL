@@ -1,0 +1,43 @@
+:root {
+    --bg: #0b1218;
+    --body: #131d28;
+    --white: rgb(255, 255, 255);
+    --black: #080808;
+    --green: rgb(0, 230, 0);
+    --marron: rgb(100, 54, 1);
+  }
+  a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0 none;
+  }
+
+  body,
+  html {
+    background-color: var(--bg);
+    position: relative;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+  }
+
+.btn-inscription{
+    font-size: 15px;
+    color: var(--white);
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+}
+span{
+    font-size: 15px;
+}
